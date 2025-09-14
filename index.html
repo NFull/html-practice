@@ -10,20 +10,20 @@
   </head>
   
   <body>
-    <header>
+    <header id="main_page_header">
       <h1>My Music Page</h1>
       <p>This is a page all about the music and artists that I like!</p>
     </header>
     
-    <main>
-      <article>
+    <main id = "page1_content">
+      <aritcle id = "fujiikaze">
         <h3>FUJII KAZE</h3>
         <img 
         src = "/img/kaze.jpg" 
         alt = "An image of Fujii Kaze's Prema album cover" 
         width = "25%">
-        <Section>
-          <p>Favorite Songs</p>
+        <section id = "songs">
+          <p class = "subheader">Favorite Songs</p>
           <ul> 
             <li>Shinunoga E-Wa</li>
             <li>Matsuri</li>
@@ -31,8 +31,8 @@
           </ul>
         </Section>
         
-        <Section>
-          <p>Best Albums</p>
+        <section id = "albums">
+          <p class = "subheader">Best Albums</p>
           <ol>
             <li>LOVE ALL SERVE ALL</li>
             <li>HELP EVER HURT NEVER</li>
@@ -40,10 +40,11 @@
           </ol>
         </Section>
         
-        <p>Learn more about <a href = "https://www.fujiikaze.com/">Fujii Kaze</a> here!</p> 
+        <p class = "button">Learn more about 
+          <a href = "https://www.fujiikaze.com/">Fujii Kaze</a> here!</p> 
       </article>
 
-      <nav>
+      <nav id = "footer">
         <h2>See my other favorite artists!</h2>
         <ul>
           <li><a href="/sleeptoken.html">Sleep Token</a></li> 
